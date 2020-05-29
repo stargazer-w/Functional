@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Functional</AssemblyName>
+    <PackageId>Functional.PipeFuncion</PackageId>
+    <Authors>Kamui</Authors>
+    <Company>-</Company>
+    <Product>-</Product>
+    <Version>0.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
