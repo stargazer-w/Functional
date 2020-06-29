@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Functional.PipeFuncion
+namespace Functional.PipeFunction
 {
     public static class PipeFunctions
     {
