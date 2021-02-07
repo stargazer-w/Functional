@@ -46,5 +46,11 @@ namespace Functional.PipeFunction
             func(ref @this);
             return @this;
         }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static void To<T>(this T @this, out T returnVal)
+        {
+            returnVal = @this;
+        }
     }
 }
