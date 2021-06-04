@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Functional.PipeFunction
+namespace Stargazer.Functional
 {
-    public static class PipeFunctions
+    public static class PipeExtensions
     {
         public delegate TResult RefStructFunc<T, out TResult>(ref T it) where T : struct;
 

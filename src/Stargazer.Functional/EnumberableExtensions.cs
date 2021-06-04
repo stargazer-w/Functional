@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
 
-namespace Functional.PipeFunction
+namespace Stargazer.Functional
 {
-    public static class EnumberableExtensions
+    public static class EnumerableExtensions
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T? FirstOrNull<T>(this IEnumerable<T> @this) where T : class
@@ -31,7 +30,7 @@ namespace Functional.PipeFunction
         }
     }
 
-    public static class StructEnumberableExtensions
+    public static class StructEnumerableExtensions
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T? FirstOrNull<T>(this IEnumerable<T> @this) where T : struct
